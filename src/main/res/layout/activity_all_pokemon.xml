@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    >
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="413dp"
+        android:layout_height="537dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.491"></ListView>
+
+    <Button
+        android:id="@+id/create"
+        android:layout_width="207dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="32dp"
+        android:background="#2ACD06"
+        android:text="Add pokemon"
+        app:icon="@android:drawable/ic_input_add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.815"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="194dp"
+        android:layout_height="72dp"
+        android:background="#B949EA"
+        android:fontFamily="@font/prosto_one"
+        android:gravity="center"
+        android:text="POKEMON"
+        android:textColor="#F8F1F1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="134dp"
+        android:layout_height="72dp"
+        android:layout_weight="1"
+        android:background="#B949EA"
+        android:fontFamily="@font/prosto_one"
+        android:gravity="center"
+        android:text="TYPE"
+        android:textColor="#EFE9E9"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textView4"
+        app:layout_constraintHorizontal_bias="0.7"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="83dp"
+        android:layout_height="72dp"
+        android:layout_weight="1"
+        android:background="#B949EA"
+        android:fontFamily="@font/prosto_one"
+        android:gravity="center"
+        android:text="LEVEL"
+        android:textColor="#F4EFEF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="16dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

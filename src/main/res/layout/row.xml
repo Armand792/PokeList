@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:gravity="left"
+    android:layout_height="match_parent">
+
+    <TextView
+
+        android:id="@+id/name"
+        android:layout_width="232dp"
+        android:layout_height="76dp"
+        android:fontFamily="@font/prosto_one"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <TextView
+        android:id="@+id/type"
+        android:layout_width="wrap_content"
+        android:layout_height="76dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/prosto_one"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lvl"
+        android:layout_width="wrap_content"
+        android:layout_height="76dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/prosto_one"
+        android:gravity="center" />
+
+</LinearLayout>
